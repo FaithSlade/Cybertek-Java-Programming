@@ -1,4 +1,4 @@
-package day48_;
+package day48_constructors_static;
 
 public class Customer {
     //public Customer(String name, int id){
@@ -18,7 +18,7 @@ public class Customer {
     public Customer(String name, int id){
         System.out.println("2-args constructor");
         this.name = name; //setName(name);
-        this.id = id; //setId(id);
+        this.id = id; //setId(id); when we have some conditions in setter so I reuse that code here
     }
 
     @Override

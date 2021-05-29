@@ -33,9 +33,10 @@ public class GroupObjects {
         }else{
             System.out.println("Andrea is not a member of group2");
         }
-        //remove some member
+        //remove some members from group1
         group1.removeMember("Pavel");
         group1.removeMember("Elvin");
-        System.out.println(group2.toString());
+        System.out.println(group1);
+        System.out.println(group1.toString());
     }
 }

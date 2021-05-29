@@ -1,14 +1,14 @@
 package day47_constructors;
 
 public class StudentObjects {
-    public static void main(String[] args) {
-        Student st1 = new Student(); //runs no-args constructor
-        Student st2 = new Student(); //runs no-args constructor
+    public static void main(java.lang.String[] args) {
+        String st1 = new String(); //runs no-args constructor
+        String st2 = new String(); //runs no-args constructor
 
-        Student st3 = new Student("Burak");
-        Student st4 = new Student("Alihan");
+        String st3 = new String("Burak");
+        String st4 = new String("Alihan");
 
-        Student st5 = new Student("Nasiba" , 28);
+        String st5 = new String("Nasiba" , 28);
 
     }
 }

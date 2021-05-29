@@ -1,19 +1,19 @@
 package day48_constructors_static;
-
+import java.lang.String;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Group {
     //we try to do it in ArrayList this is really common at work
 
-    private java.lang.String name;
+    private String name;
     //private List<String> member = new ArrayList<>();
     private List<String> member;
 
-    //constructor that accepts a name
-    public Group(java.lang.String name){
-        this.name = name;
-        member = new ArrayList<>();
+    //constructor that accepts a name: we must pass String
+    public Group(String name){
+        this.name = name;// this what group1 inside the parenthesis
+        member = new ArrayList<>();// null
     }
 
     public void addMember(String newMember){

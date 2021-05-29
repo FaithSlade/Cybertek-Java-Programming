@@ -1,4 +1,4 @@
-package day47_;
+package day47_constructors;
 
 public class Address {
     private String street;

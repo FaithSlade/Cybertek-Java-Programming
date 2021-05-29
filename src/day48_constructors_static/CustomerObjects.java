@@ -35,5 +35,26 @@ public class CustomerObjects {
         //Print info of first customer object in arrays and arraylist.
         System.out.println(todaysCustomers[0].toString());//Customer{name='Bob', id=1}
         System.out.println(todaysCustomers[0]);//Customer{name='Bob', id=1}
+        System.out.println(CustomerList.get(0).toString());
+
+        System.out.println(CustomerList);//print toSting() info of all Customer objects
+        System.out.println("-----For Loop-----");
+        for(int i = 0; i < CustomerList.size(); i++){
+            System.out.println(CustomerList.get(i));
+        }
+        System.out.println("-----For Each Loop-----");
+        for(Customer each : CustomerList){ // make sure it the same data type with List
+            System.out.println(each);
+        }
+
+        //print only names of Customers in the list
+        System.out.println("-----Names of the Customers-----");
+        for (int i = 0; i < CustomerList.size(); i++) {
+            System.out.println(CustomerList.get(i).getName());
+        }
+        //ForEach method and lambda expression
+        for(Customer each : CustomerList){
+            System.out.println(each.getName());// you cannot said just .name cause it private Encapsulation
+        }
     }
 }

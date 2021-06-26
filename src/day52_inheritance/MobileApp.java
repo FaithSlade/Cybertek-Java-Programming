@@ -1,6 +1,6 @@
 package day52_inheritance;
 
-public class MobileApp {
+public class  MobileApp {
     private String name;
     private double version;
 
